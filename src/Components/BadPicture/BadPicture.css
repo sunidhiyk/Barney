@@ -1,0 +1,45 @@
+.BadPicture{
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.left{
+  flex-basis: 40%;
+}
+.right{
+  flex-basis: 50%;
+}
+.left img{
+  width: 100%;
+  border-radius: 10px;
+} 
+
+  
+
+.BadPicture p{
+  color: white;
+  margin-bottom: 15px;
+  padding-left: 20px;
+
+}
+
+
+@media (max-width: 600px){
+  .BadPicture{
+    flex-direction: column;
+
+  }
+  .left{
+    
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .right{
+    flex-basis: 100%;
+    margin-top: 50px;
+  }
+
+}
