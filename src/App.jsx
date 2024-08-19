@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Gallery from "./Components/Gallery/Gallery";
 import Title from "./Components/Gallery/Title/Title";
-import BadPicture from "./Components/badPicture/BadPicture";
+import BadPicture from "./Components/BadPicture/BadPicture";
 import PhotoGallery from "./Components/PhotoGallery/PhotoGallery";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
